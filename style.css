@@ -1,0 +1,87 @@
+ 
+
+body{
+    background: #d2d2c1 url(fundo.png) no-repeat;
+    font: 16px arial, helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* principal ideia e cria conteiner padrao */
+#principal{
+    border: 1px solid rgb(248, 248, 248);
+    /* comprimento da borda */
+    width: 900px;
+    /* altura da borda */
+    /* height: 500px; */
+}
+ 
+#menu{
+ margin: 10px 10px;
+ border:  1px solid rgb(239, 247, 247);
+ padding: 10px;
+ width: 850px;
+ background-color: #86866e ;
+ border-radius: 10px;
+ box-shadow: 6px 6px 6px rgb(54, 54, 54);
+} 
+
+#rodape{
+    text-align: center;
+}
+
+ .centralizar{
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+} 
+
+.img-campanha{
+    /* colocar borda nas imagens */
+    border: 10px solid #c3c3ae;
+}
+
+ h1{
+   color: #5e5e59;
+   /* (em) serve para alementar as fonte em escala valor definido no body font: 16px;
+    */
+    font-size: 2.2em;
+} 
+
+   a{
+    color: #5e5e59;
+    /* remove underline do link */
+    text-decoration: none;
+    font-weight: bold;
+    /* colocar bordar entre os link */
+    border: 1px solid rgb(247, 240, 240);
+    border-radius: 10px;
+    padding: 6px;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;  
+} 
+
+/* a:link{
+    background-color:rgb(28, 63, 51) ;
+    color: beige;
+} */
+
+a:visited{
+    background-color: #a0a07e;
+}
+
+a:hover{
+    background-color: rgb(123, 141,99) ;
+}
+
+
+#home #menu .home a,
+#bio #menu .bio a,
+#camp #menu .cam a,
+#cont #menu .cont a
+{
+    background-color: rgb(123, 141,99);
+    color: #fff;
+}
